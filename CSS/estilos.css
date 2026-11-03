@@ -1,9 +1,9 @@
-/* Espacio entre las columnas */
+
 .card-group {
     gap: 20px;
 }
 
-/* Todas las tarjetas con el mismo tamaño */
+
 .card-group > .card {
     flex: 1 1 0;
     min-width: 0;
@@ -11,10 +11,25 @@
     overflow: hidden;
 }
 
-/* Todas las imágenes con las mismas dimensiones */
+
 .card-group .card img {
     width: 100%;
     height: 220px;
     object-fit: contain;
     background-color: white;
 }
+
+body {
+    font-family: Arial, sans-serif;
+    color: #24462b;
+    background-color: rgb(103, 145, 223);
+    line-height: 1.6;
+  }
+  
+h1, h2, h3 {
+    color: #144712;
+  }
+
+.card-text  {
+    color: #000000;
+  }

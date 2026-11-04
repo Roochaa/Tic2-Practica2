@@ -6,10 +6,10 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Opciones</title>
 
-        <link rel="stylesheet" href="./CSS/estilos.css">
         
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
 
+        <link rel="stylesheet" href="./CSS/Estilos.CSS">
 
     </head>
     <body>
@@ -47,8 +47,7 @@
             <div class="col-12 col-md-4">
               <div class="paso p-3 h-100">
                 <h3>1. Terminar Bachillerato</h3>
-      
-      
+    
                 <p>
                   Obtener el título de Bachiller y preparar las materias
                   necesarias para acceder a la universidad.
@@ -98,65 +97,70 @@
 
 
 
-        <table class="table table-bordered table-striped align-middle">
-       
-            <thead>
-              <tr>
-                <th scope="col"></th>
-                <th scope="col">Carrera de Medicina</th>
-                <th scope="col">Carrera de Enfermería</th>
-                <th scope="col">Carrera de Odontología</th>
-              </tr>
+          <table class="table table-bordered table-striped table-hover align-middle text-center">
+            <thead class="table-dark">
+                <tr>
+                    <th scope="col">Características</th>
+                    <th scope="col">Carrera de Medicina</th>
+                    <th scope="col">Carrera de Enfermería</th>
+                    <th scope="col">Carrera de Odontología</th>
+                </tr>
             </thead>
+        
             <tbody>
                 <tr>
-                    <th scope="row">Tipo de estudio</th>
+                    <th scope="row" class="table-secondary">Tipo de estudio</th>
                     <td>Grado universitario</td>
                     <td>Grado universitario</td>
                     <td>Grado universitario</td>
-                  </tr>
+                </tr>
+        
                 <tr>
-                    <th scope="row">Centro</th>
-                    <td>Universidad de Santiago de Compostela</td>
-                    <td>Universidad de Santiago de Compostela</td>
-                    <td>Universidad de A Coruña</td>
-                  </tr>
-              <tr>
-                <th scope="row">Duración</th>
-                <td>6 años</td>
-                <td>5 años</td>
-                <td>4 años</td>
-              </tr>
-              <tr>
-                <th scope="row">Créditos ECTS</th>
-                <td>360</td>
-                <td>300</td>
-                <td>240</td>
-              </tr>
-              <tr>
-                <th scope="row">Formación</th>
-                <td>Anatomía, fisiología, enfermedades, diagnóstico, tratamiento y prácticas clínicas en centros sanitarios.</td>
-                <td>Anatomía y salud bucodental, prevención, diagnóstico y tratamiento de enfermedades de dientes y encías, prótesis, cirugía oral y prácticas clínicas.</td>
-                <td>Cuidados de enfermería, anatomía, fisiología, farmacología, atención a pacientes, prevención de enfermedades y prácticas clínicas.</td>
-              </tr>
-              <tr>
-                <th scope="row">Localidad</th>
-                <td>Santiago de Compostela</td>
-                <td>Santiago de Compostela</td>
-                <td>A Coruña / Ferrol</td>
-              </tr>
-              <tr>
-                <th scope="row">Formación posterior</th>
-                <td>MIR para especializarse</td>
-                <td>Posgrado según objetivos</td>
-                <td>EIR para especializarse</td>
-              </tr>
+                    <th scope="row" class="table-secondary">Centro</th>
+                    <td>Universidad de Santiago de Compostela (USC)</td>
+                    <td>Universidad de A Coruña (UDC)</td>
+                    <td>Universidad de Santiago de Compostela (USC)</td>
+                </tr>
+        
+                <tr>
+                    <th scope="row" class="table-secondary">Duración</th>
+                    <td>6 años</td>
+                    <td>4 años</td>
+                    <td>5 años</td>
+                </tr>
+        
+                <tr>
+                    <th scope="row" class="table-secondary">Créditos ECTS</th>
+                    <td>360</td>
+                    <td>240</td>
+                    <td>300</td>
+                </tr>
+        
+                <tr>
+                    <th scope="row" class="table-secondary">Formación</th>
+                    <td>Anatomía, fisiología, enfermedades, diagnóstico, tratamiento y prácticas clínicas en centros sanitarios.</td>
+                    <td>Cuidados de enfermería, anatomía, fisiología, farmacología, atención a pacientes, prevención de enfermedades y prácticas clínicas.</td>
+                    <td>Anatomía y salud bucodental, prevención, diagnóstico y tratamiento de enfermedades de dientes y encías, prótesis, cirugía oral y prácticas clínicas.</td>
+                </tr>
+        
+                <tr>
+                    <th scope="row" class="table-secondary">Localidad</th>
+                    <td>Santiago de Compostela</td>
+                    <td>A Coruña / Ferrol</td>
+                    <td>Santiago de Compostela</td>
+                </tr>
+        
+                <tr>
+                    <th scope="row" class="table-secondary">Formación posterior</th>
+                    <td>MIR para especializarse</td>
+                    <td>EIR para especializarse</td>
+                    <td>Posgrado según objetivos profesionales</td>
+                </tr>
             </tbody>
-          </table>
+        </table>
        
 
     <h2 class="mt-5">Notas de corte de las tres carreras</h2>
-
 
     <p>
       Estas notas sirven como referencia histórica del curso 2025-2026
@@ -165,13 +169,15 @@
 
     <div class="row g-3">
 
-
       <div class="col-12 col-md-4">
         <div class="nota-corte p-3 h-100">
 
-
           <h3>Medicina</h3>
 
+          <img src="./img/medicina.jpg"
+          alt="Carrera de Medicina"
+          class="img-fluid rounded mb-3"
+          style="width: 100%; height: 180px; object-fit: cover;">
 
           <p>USC · Santiago de Compostela</p>
 
@@ -248,8 +254,6 @@
         </div>
       </div>
     </div>
-
-    
 
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
         

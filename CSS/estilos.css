@@ -22,7 +22,7 @@
 body {
     font-family: Arial, sans-serif;
     color: #24462b;
-    background-color: rgb(103, 145, 223);
+    background-color: rgb(149, 175, 224);
     line-height: 1.6;
   }
   
@@ -33,3 +33,4 @@ h1, h2, h3 {
 .card-text  {
     color: #000000;
   }
+
